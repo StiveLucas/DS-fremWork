@@ -46,7 +46,9 @@ public class Controle {
         Pessoa obj = selecionarPeloCodigo(codigo);
         acao.delete(obj);
     }
-
+//-----------------------------------------------------------------------------
+//Começa aqui
+    
     @GetMapping("")
     public String mensagem(){
         return "OLá Mundo";
